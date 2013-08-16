@@ -14,6 +14,17 @@ public:
     
     // a selector callback
     void menuCloseCallback(CCObject* pSender);
+    
+    
+    
+    void callbackC();
+    void callbackN(CCNode* sender);
+    void callbackND(CCNode* sender,void* data);
+    
+    
+    
+    
+    
 
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(HelloWorld);
